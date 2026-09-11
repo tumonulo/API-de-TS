@@ -1,18 +1,26 @@
-# API-de-TS 🔌
+# API-de-TS 
 
-A REST API built with **TypeScript** and **Node.js**, designed as an experimental project for learning and exploring backend architecture.
+API del servidor de Discord **TS Community Brawl** desarrollada con **TypeScript y Node.js**.
 
-The project includes authentication, API key management and application management, with a modular structure separating controllers, services, routes, middleware and type definitions.
+Proyecto experimental creado para proporcionar una API para los servicios y aplicaciones de TS Community, con una arquitectura modular y separación entre rutas, controladores, servicios, middleware y tipos.
 
-## 🛠️ Technologies
+## ✨ Características
+
+* 🔐 Autenticación mediante API keys
+* 📦 Gestión de aplicaciones
+* 🗄️ Integración con base de datos
+* 🧩 Arquitectura modular
+* ⚙️ Configuración mediante variables de entorno
+
+## 🛠️ Tecnologías
 
 * TypeScript
 * Node.js
 * Express
 * MongoDB
-* pnpm
+* Vercel
 
-## 📁 Project Structure
+## 📁 Estructura
 
 ```text
 src/
@@ -22,12 +30,11 @@ src/
 ├── routes/
 ├── services/
 ├── types/
-├── app.ts
 └── database.ts
 ```
 
-## 📌 Status
+La estructura separa las diferentes responsabilidades de la aplicación para facilitar el mantenimiento y futuras ampliaciones.
 
-🟡 **On hold**
+## 🚧 Estado
 
-This project is currently paused. It serves as a foundation for experimenting with backend development and may be continued in the future.
+Proyecto experimental actualmente pausado.
